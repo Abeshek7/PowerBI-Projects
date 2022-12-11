@@ -7,7 +7,11 @@ Download data after 2009 for election results related maps
 Map Shape Files                shp
 Metadata -Borders/projections  prj
 Metadata- Constituencies       dbf
+------------------------------------------------------------------------------------------
+Open Power BI --->Options & settings --->Options.
 
+1.Security         ---> Enable Use and Filled Map Visuals
+2.Preview Features ---> Enable shape map visual
 
 
 ---------------------------------------------
@@ -20,17 +24,29 @@ URL ----->https://pub.uni-bielefeld.de/record/2674065
 
 Download --------> mapping-indias-elections.tgz
 
+After downloading it, extract it yo will see folders containing files for each states.
+
+Since our analysis is on gujarat, go to the folder and copy the relevant files shp,prj,dbf
+
+-----------------------------------------------------------------------------------
+
 Download only relevant files shp,prj,dbf
 
 
 The Election results data are only applicable for india
 
+-----------------------------------------------------------------------------------
+the go to this website -------> mapshaper.org 
 
-mapshaper.org 
+Here we will be combining all the selected files i.e(shp,prj,dbf)
+Go to this website and  combine the files extracted from the above URL with the zoom of 1.5% and export it
 
-PBI supports TOPO JSON fomrat only
+After Combining simplify it.
+
+PBI supports TOPO JSON fomrat only so export in that format.
 PBI only accepts less than 20kb
-Go to this website and  combine the files extracted from the above URL with the zoom of 1.5%
+
+color codes:
 
 BJP - #FF9A30
 INC - #12ABEE
