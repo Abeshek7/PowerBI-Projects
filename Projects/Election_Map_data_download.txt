@@ -1,0 +1,39 @@
+Power bi Map files
+
+Gujarat Assembly Elections
+
+
+Download data after 2009 for election results related maps
+Map Shape Files                shp
+Metadata -Borders/projections  prj
+Metadata- Constituencies       dbf
+
+
+
+---------------------------------------------
+
+search in google
+
+gis shape files for india  assembly constituency
+
+URL ----->https://pub.uni-bielefeld.de/record/2674065
+
+Download --------> mapping-indias-elections.tgz
+
+Download only relevant files shp,prj,dbf
+
+
+The Election results data are only applicable for india
+
+
+mapshaper.org 
+
+PBI supports TOPO JSON fomrat only
+PBI only accepts less than 20kb
+Go to this website and  combine the files extracted from the above URL with the zoom of 1.5%
+
+BJP - #FF9A30
+INC - #12ABEE
+IND - #808080
+SP  - #CA0505
+AAP - #0065A5
